@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  :root{
+    --btnBg-color: #273c75;
+    --underline-color: #273c75;
+  }
+  
+  html{
+    font-size: 62.5% ;
+  }
+  
+  
+  .container{
+    padding-left: 10%;
+    padding-right: 10%;
+    /* border: 1px solid red; */
+  }
+  
+  .grid{
+    display: grid;
+  }
+  
+  .gridTwoTemplate{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .gridThreeTemplate{
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+  .gridFourTemplate{
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  li{
+    list-style-type: none;
+  }
+  
+  .heading{
+    font-size: 3.5rem;
+    text-decoration: underline;
+  
+    /* Color the underline */
+    /* text-decoration-color: var(--underline-color);
+    -moz-text-decoration-color: var(--underline-color); */
+  }
+  
+  .img{
+    height: 90%;
+    width: 80%;
+  }
+  
+  
+  
+  /* ======================form style common for all================== */
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    /* border : 1px solid red; */
+  }
+  
+  form label{
+    font-size: 1.5rem;
+  }
+  
+  form input{
+    height: 3.3rem;
+    width: 80%;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    outline: none;
+  }
+  
+  
+  /* ======================End: form style common for all================== */
+  
+  .btn{
+    width: 25%;
+    height: 3.3rem;
+    background-color: var(--btnBg-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+  }
+  
+  
+  /* toast style */
+  /* .toastBody{
+    font-size: 1.3rem;
+  } */

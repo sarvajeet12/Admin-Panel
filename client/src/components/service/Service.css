@@ -1,0 +1,45 @@
+.serviceSection{
+    /* border: 1px solid blue; */
+    margin: 8rem auto;
+}
+
+.serviceCardContainer{
+    /* border: 1px solid rebeccapurple; */
+    margin-top: 2rem;
+    gap: 5rem;
+}
+
+.serviceCard{
+    /* border: 1px solid black; */
+    box-shadow: 0 .5rem 2.5rem rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+}
+
+.serviceCard img{
+    width: 100%;
+    height: 25rem;
+}
+
+.serviceCard div{
+    margin-top: 1rem;
+}
+
+.serviceCard div span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.serviceCard div span:nth-child(2){
+    margin-left: 3rem;
+}
+
+.serviceCard div h2{
+    font-size: 1.7rem;
+    margin: 1rem 0;
+}
+
+
+.serviceCard div p{
+    font-size: 1.3rem
+} 
+

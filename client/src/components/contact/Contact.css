@@ -1,0 +1,15 @@
+.contactSection{
+    /* border: 1px solid blue; */
+    margin: 8rem auto;
+}
+
+
+
+.contactSection div:nth-child(2) form textarea{
+    height: 15rem;
+    width: 80%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    outline: none;
+    resize: none;
+  }

@@ -1,0 +1,30 @@
+:root{
+    --navBg-color:#273c75;
+    --navList-color: #fff;
+}
+
+
+.navbar{
+    background-color: var(--navBg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    /* by default width: 100% */
+}
+
+.navbar div h1{
+    font-size: 3rem;
+    color: var(--navList-color);
+}
+
+.navbar ul{
+    display: flex;
+    gap: 5rem;
+}
+
+/* a (anchor tag) is equal to Link*/
+.navbar ul li a{
+    font-size: 1.5rem;
+    color: var(--navList-color);
+}

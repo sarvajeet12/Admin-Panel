@@ -1,0 +1,94 @@
+:root{
+    --underline-color:#273c75;
+}
+
+.adminLayoutContainer{
+    /* border: 1px solid red; */
+    margin: 5rem auto;
+}
+
+.adminLayoutContainer nav ul{
+    display: flex;
+    gap: 3rem;
+}
+
+.adminLayoutContainer nav ul li a{
+    font-size: 1.4rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.adminLayoutContainer nav ul li a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: .3rem;
+    background-color: var(--underline-color);
+
+
+    /* Apllying this transition property: Line go and come */
+
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.adminLayoutContainer nav ul li a:hover:after{
+    width: 100%;
+
+
+    /* Apllying this trasition proper: Line only go */
+
+    /* transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out; */
+}
+
+
+
+/* =================================== adminUserSection ============================================ */
+
+.adminUserSection{
+    /* border: 1px solid blue; */
+    margin: 5rem auto;
+}
+
+/* =================================== End: adminUserSection ============================================ */
+
+
+/* ===================================For userAdmin and contactAdmin ============================================ */
+
+.adminUserSection h1,.adminContactSection  h1{
+    font-size: 3rem;
+}
+
+table{
+    margin-top: 3rem;
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+table thead tr{
+    background-color: bisque;
+    height: 5rem;
+}
+
+table tbody tr{
+    background-color: gainsboro;
+    height: 5rem;
+}
+
+
+
+
+/* =================================== adminContactSection ============================================ */
+
+.adminContactSection{
+    /* border: 1px solid blue; */
+    margin: 5rem auto;
+}
+
+/* =================================== End : adminContactSection ============================================ */

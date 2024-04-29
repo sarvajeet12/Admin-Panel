@@ -1,0 +1,86 @@
+.homeSection{
+    /* border: 2px solid blue; */
+    margin: 8rem auto;
+}
+
+/* ========================First=================== */
+
+.homeSection .firstSection div:nth-child(1), .thirdSection div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* .homeSection .firstSection,.thirdSection{
+    border: 1px solid fuchsia;
+} */
+
+.homeSection .firstSection div:nth-child(1) h1, .thirdSection div:nth-child(2) h1{
+    font-size: 3.5rem;
+    max-width: 70%;
+    margin: 1rem 0 2rem 0;
+}
+
+.homeSection .firstSection div:nth-child(1) p, .thirdSection div:nth-child(2) p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    max-width: 80%;
+}
+
+
+/* button */
+.homeSection .firstSection div:nth-child(1) div, .thirdSection div:nth-child(2) div{
+    margin-top: 1rem;
+} 
+
+
+.homeSection .firstSection div:nth-child(1) div button:nth-child(2),
+.thirdSection div:nth-child(2) div button:nth-child(2){
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    margin-left: 2rem;
+}
+
+.homeSection .firstSection div:nth-child(2) img, .thirdSection div:nth-child(1) img{
+    height: 90%;
+    width: 80%;
+    /* border: 1px solid green; */
+}
+
+
+/* ========================End First=================== */
+
+
+/* ========================Second=================== */
+
+.homeSection .secondSection{
+    margin: 5rem 0;
+    background-color: #dfe4ea;
+    padding: 2.5rem 0;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+.homeSection .secondSection div{
+    border-right: 0.2rem solid #000;
+    text-align: center;
+}
+
+.homeSection .secondSection div:last-child{
+    border: none;
+}
+.homeSection .secondSection div h2{
+    font-size: 3rem;
+}
+
+.homeSection .secondSection div p{
+    font-size: 1.3rem;
+}
+
+
+/* ========================End Second=================== */
+

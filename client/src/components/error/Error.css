@@ -1,0 +1,39 @@
+.errorSection{
+    margin: 10rem auto;
+    /* border: 1px solid forestgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.errorSection h1{
+    font-size: 20rem;
+    letter-spacing: 1rem;
+}
+
+.errorSection h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.errorSection p{
+    font-size: 1.3rem;
+    max-width: 40%;
+    /* border: 1px solid darkblue; */
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.errorSection div{
+    /* border: 1px solid goldenrod; */
+    margin-top: 2rem;
+    display: flex;
+    column-gap: 5rem;
+}
+
+.errorSection .btn{
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    width: 12rem;
+}

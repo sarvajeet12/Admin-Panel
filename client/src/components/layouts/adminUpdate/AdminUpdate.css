@@ -1,0 +1,11 @@
+/* half css in contactSection.css */
+
+
+.updateSection{
+    /* border: 1px solid blue; */
+    margin: 5rem auto;
+}
+
+.updateSection button{
+    width: 20rem;
+}
