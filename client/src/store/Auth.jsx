@@ -1,6 +1,6 @@
 // TODO: ============================================================= WAREHOUSE ============================================================
 
-import { createContext, useContext, useEffect, useState } from "reac";
+import { createContext, useContext, useEffect, useState } from "react";
 
 // context
 export const AuthContext = createContext();
